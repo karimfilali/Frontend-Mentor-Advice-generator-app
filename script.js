@@ -7,7 +7,7 @@ diceBtn.addEventListener("click", () => getAdvice())
 getAdvice()
 
 function getAdvice(){
-    fetch("https://api.adviceslip.com/advice").then(response => {
+    fetch("https://api.adviceslip.com/advice", { cache: "no-cache", }).then(response => {
         return response.json()
     }).then(adviceData => {
         const AdviceObject = adviceData.slip
