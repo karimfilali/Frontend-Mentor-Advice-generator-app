@@ -38,15 +38,11 @@ body{
     text-transform: uppercase;
 }
 
-.advice, .name{
+.advice{
     font-size: 2.8rem;
     line-height: 3.8rem;
     color:#cee3e9;
-    margin-top: 2.4rem;
-}
-
-.name{
-    margin: 1rem 0 4rem 0; 
+    margin: 2.4rem 0 4rem 0;
 }
 
 .dice{
